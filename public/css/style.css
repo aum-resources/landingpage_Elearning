@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    background-image: linear-gradient(#57A42F, #CCBD2E);
+}
+
+#page {
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 1px solid #fff;
+    min-height: 100vh;
+    border-radius: 6px;
+}
+
+.page_app {
+    margin: 0.3em;
+}
+
+.site-header {
+    /* background-color: #FFF3E4; */
+    background-image: url('/public/img/body-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header__content {
+    padding: 3em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header__content .navbar__logo h2 {
+    font-size: 2em;
+    font-weight: 700;
+    z-index: 2;
+    position: absolute;
+    color: #fff;
+
+}
+
+.main-header__content .navbar__logo i {
+    position: absolute;
+    color: #fff;
+    font-size: 1em;
+    left: -13%;
+    top: -6%;
+    transform: rotate(-35deg);
+}
+
+.main-header__content .navbar__logo h2::first-letter {
+    font-family: 'Palanquin Dark',
+        sans-serif;
+
+}
+
+.main-header__content .navbar__logo span {
+    width: 5em;
+    position: absolute;
+    background-color: rgba(6, 192, 251, 0.5);
+    height: 5em;
+    z-index: 0;
+    transform: rotate(45deg);
+    border-radius: 2px;
+    top: 42%;
+    left: 48%;
+}
+
+.navbar-desc {
+    padding-top: 5em;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.navbar-desc .navbar-desc__left {
+    flex: 1;
+    padding-left: 2em;
+}
+
+.navbar-desc .navbar-desc__left h2,
+p {
+    color: #fff;
+    line-height: 1.5em;
+}
+
+.navbar-desc .navbar-desc__left h2 {
+    padding-bottom: 1em;
+}
+
+.navbar-desc__btn {
+    margin-top: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.navbar-desc__btn a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em 1.5em;
+    background-color: #F48C06;
+    border-radius: 2em;
+}
+
+.navbar-desc__btn span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5em;
+}
+
+.navbar-desc .navbar-desc__right {
+    flex: 1;
+}
